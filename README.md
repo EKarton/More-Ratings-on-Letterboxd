@@ -43,13 +43,14 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 
 ### Commonly used scripts:
 
-| Scripts        | Description                                     |
-| -------------- | ----------------------------------------------- |
-| `yarn clean`   | Cleans out the `dist` and `node_modules` folder |
-| `yarn install` | Installs dependencies                           |
-| `yarn build`   | Builds and minifies the chrome extension        |
-| `yarn lint`    | Checks the formatting and linting of files      |
-| `yarn test`    | Runs unit tests                                 |
+| Scripts         | Description                                     |
+| --------------- | ----------------------------------------------- |
+| `yarn clean`    | Cleans out the `dist` and `node_modules` folder |
+| `yarn install`  | Installs dependencies                           |
+| `yarn build`    | Builds and minifies the chrome extension        |
+| `yarn lint`     | Checks the formatting and linting of files      |
+| `yarn lint:fix` | Fixes the formatting and linting of files       |
+| `yarn test`     | Runs unit tests                                 |
 
 ### Next Steps
 
