@@ -19,7 +19,7 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 
 2. Install dependencies by running `yarn install`
 
-3. Create a `.secrets.js` file on the root folder of this project with this structure:
+3. Create a `.secrets.js` file in the root folder of this project with this content:
 
    ```js
    export default {
