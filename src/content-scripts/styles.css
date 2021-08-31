@@ -16,4 +16,6 @@
   overflow-wrap: break-word;
   width: min-content;
   line-height: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
 }

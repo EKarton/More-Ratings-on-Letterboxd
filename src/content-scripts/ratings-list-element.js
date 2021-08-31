@@ -11,8 +11,6 @@ const createRatingsListElement = (ratings) => {
 };
 
 const createRatingElement = ({ source, value }) => {
-  const ratingElementWrapper = document.createElement('div');
-
   const ratingElement = document.createElement('div');
 
   const ratingValueLabel = document.createElement('div');
@@ -24,9 +22,8 @@ const createRatingElement = ({ source, value }) => {
   ratingSourceLabel.innerText = getRatingName(source);
 
   ratingElement.append(ratingValueLabel, ratingSourceLabel);
-  ratingElementWrapper.appendChild(ratingElement);
 
-  return ratingElementWrapper;
+  return ratingElement;
 };
 
 export default createRatingsListElement;
