@@ -24,7 +24,7 @@ const contentScripts = {
     }),
   ],
   optimization: {
-    minimize: false,
+    minimize: true,
   },
   devtool: false,
   watchOptions: {
@@ -62,6 +62,9 @@ const popup = {
     }),
   ],
   devtool: false,
+  optimization: {
+    minimize: true,
+  },
   watchOptions: {
     ignored: ['node_modules', 'extension/**/*.js', 'extension/**/*.css'],
     poll: 1000,
