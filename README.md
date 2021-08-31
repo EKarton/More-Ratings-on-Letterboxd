@@ -4,7 +4,7 @@
 
 Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is a chrome extension that fetches and injects ratings from IMDB, Rotten Tomatoes, and Metacritic to [Letterboxd](https://letterboxd.com/). With this chrome extension, users will be able to see IMDB, Rotten Tomatoes, and Metacritic ratings on each film, right below Letterboxd's ratings:
 
-<img src="./docs/images/screenshot.png" width="600px"/>
+<img src="./docs/images/screenshot.png"/>
 
 ### Getting Started:
 
@@ -39,7 +39,7 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
    2. If you are using [Chrome](https://www.google.ca/chrome/), follow this [guide](docs/GettingStartedOnChrome.md)
 
 6. Once you have loaded your chrome extension, go to https://letterboxd.com/film/spider-man/. It should show the ratings on the side of the page:
-   <img src="./docs/images/final-result.png" width="600px"/>
+   <img src="./docs/images/final-result.png"/>
 
 ### Commonly used scripts:
 
