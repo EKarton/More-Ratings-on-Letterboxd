@@ -66,4 +66,4 @@ Emilio Kartono, who made the entire project.
 
 ### License
 
-This project is protected under the GNU licence. Please refer to the LICENSE.txt for more information.
+This project is protected under the MIT licence. Please refer to the [LICENSE.txt](LICENSE.txt) for more information.
