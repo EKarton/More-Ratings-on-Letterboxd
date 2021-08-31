@@ -1,4 +1,4 @@
-.external-ratings {
+.more-ratings__ratings-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -8,11 +8,11 @@
   flex-wrap: nowrap;
 }
 
-.external-ratings__value {
+.more-ratings__ratings-list-item-value {
   line-height: 1.75rem;
 }
 
-.external-ratings__source {
+.more-ratings__ratings-list-item-source {
   overflow-wrap: break-word;
   width: min-content;
   line-height: 1.25rem;

@@ -1,10 +1,10 @@
 import { getRatingName } from './utils';
-import './styles.css';
+import './ratings-list.css';
 
 const createRatingsListElement = (ratings) => {
   const element = document.createElement('div');
 
-  element.className = 'section external-ratings';
+  element.className = 'section more-ratings__ratings-list';
   element.append(...ratings.map((rating) => createRatingElement(rating)));
 
   return element;
@@ -14,11 +14,11 @@ const createRatingElement = ({ source, value }) => {
   const ratingElement = document.createElement('div');
 
   const ratingValueLabel = document.createElement('div');
-  ratingValueLabel.className = 'external-ratings__value';
+  ratingValueLabel.className = 'more-ratings__ratings-list-item-value';
   ratingValueLabel.innerText = value;
 
   const ratingSourceLabel = document.createElement('div');
-  ratingSourceLabel.className = 'external-ratings__source';
+  ratingSourceLabel.className = 'more-ratings__ratings-list-item-source';
   ratingSourceLabel.innerText = getRatingName(source);
 
   ratingElement.append(ratingValueLabel, ratingSourceLabel);
