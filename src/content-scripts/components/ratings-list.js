@@ -1,4 +1,4 @@
-import { getRatingName } from './utils';
+import { getRatingName } from '../utils';
 import './ratings-list.css';
 
 const createRatingsListElement = (ratings) => {

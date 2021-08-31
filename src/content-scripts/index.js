@@ -1,8 +1,8 @@
 import 'arrive';
 import { fetchRatings } from './utils';
-import createRatingsListElement from './ratings-list';
-import createErrorMessageElement from './error-message';
-import createNoRatingsMessageElement from './no-ratings-message';
+import createRatingsListElement from './components/ratings-list';
+import createErrorMessageElement from './components/error-message';
+import createNoRatingsMessageElement from './components/no-ratings-message';
 
 window.onload = async () => {
   const sidebar = document.getElementsByClassName('sidebar')[0];
