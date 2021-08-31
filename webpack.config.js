@@ -28,7 +28,7 @@ const contentScripts = {
   },
   devtool: false,
   watchOptions: {
-    ignored: ['node_modules', 'extension/**/*.js', 'extension/**/*.css'],
+    ignored: ['node_modules'],
     poll: 1000,
   },
   output: {
@@ -66,7 +66,7 @@ const popup = {
     minimize: true,
   },
   watchOptions: {
-    ignored: ['node_modules', 'extension/**/*.js', 'extension/**/*.css'],
+    ignored: ['node_modules'],
     poll: 1000,
   },
   output: {
