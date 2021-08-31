@@ -1,0 +1,19 @@
+.external-ratings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  text-align: center;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.external-ratings__value {
+  line-height: 1.75rem;
+}
+
+.external-ratings__source {
+  overflow-wrap: break-word;
+  width: min-content;
+  line-height: 1.25rem;
+}
