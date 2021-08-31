@@ -31,7 +31,7 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 
    - `<OMDB_API_KEY>` is your OMDB Api key. You can get a free one by filling out a form [here](https://www.omdbapi.com/apikey.aspx)
 
-4. Build the chrome extension by running `yarn build`
+4. Build the chrome extension by running `yarn build`. Your built chrome extension will be in the `./dist` folder.
 
 5. Load your chrome extension on your web browser
 
