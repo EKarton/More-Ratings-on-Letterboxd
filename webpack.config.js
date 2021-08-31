@@ -73,4 +73,4 @@ const popup = {
   },
 };
 
-module.exports = [contentScripts];
+module.exports = [contentScripts, popup];
