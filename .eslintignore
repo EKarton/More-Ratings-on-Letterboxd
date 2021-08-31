@@ -1,0 +1,9 @@
+# Config files
+babel.config.js
+prettier.config.js
+webpack.config.js
+.eslintrc.js
+
+# Build files and dependencies
+node_modules/
+dist/
