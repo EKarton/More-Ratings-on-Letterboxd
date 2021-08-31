@@ -16,4 +16,4 @@
 
    <img src="images/getting-started-on-edge/extensions-page--result.png"/>
 
-5. You have successfully loaded your chrome extension on edge! Go back to the [README.md](../README.md) file to continue your installation.
+5. You have successfully loaded your chrome extension on edge! Go back to step 6 of the [README.md](../README.md#installation) file to continue your installation.
