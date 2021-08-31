@@ -53,8 +53,10 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 
 ### Next Steps
 
+- [ ] Publish to the Chrome web store
 - [ ] Add popup to enable / disable injecting ratings on Letterboxd
 - [ ] Add unit tests
+- [ ] Set up CI/CD pipeline for checking PRs and automatically deploy to the Chrome web store
 
 ### Usage
 
