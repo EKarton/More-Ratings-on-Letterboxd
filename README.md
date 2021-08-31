@@ -36,7 +36,7 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 5. Load your chrome extension on your web browser
 
    1. If you are using [Edge](https://www.microsoft.com/en-us/edge), follow this [guide](docs/GettingStartedOnEdge.md)
-   2. If you are using [Chrome](https://www.google.ca/chrome/), follow this [guide](docs/GettingStartedOnChrome.md)
+   2. If you are using [Google Chrome](https://www.google.ca/chrome/), follow this [guide](docs/GettingStartedOnChrome.md)
 
 6. Once you have loaded your chrome extension, go to https://letterboxd.com/film/spider-man/. It should show the ratings on the side of the page:
    <img src="./docs/images/final-result.png"/>
