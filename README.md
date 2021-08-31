@@ -63,9 +63,9 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 
 Please note that this project is used for educational purposes and is not intended to be used commercially. We are not liable for any damages/changes done by this project.
 
-### Credits
+### Author
 
-Emilio Kartono, who made the entire project.
+Emilio Kartono
 
 ### License
 
