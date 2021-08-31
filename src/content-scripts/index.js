@@ -1,8 +1,8 @@
 import 'arrive';
 import { fetchRatings } from './utils';
-import createRatingsListElement from './ratings-list-element';
-import createErrorMessageElement from './error-message-element';
-import createNoRatingsElement from './no-ratings-element';
+import createRatingsListElement from './ratings-list';
+import createErrorMessageElement from './error-message';
+import createNoRatingsMessageElement from './no-ratings-message';
 
 window.onload = async () => {
   const sidebar = document.getElementsByClassName('sidebar')[0];
@@ -14,7 +14,7 @@ window.onload = async () => {
     const ratings = await fetchRatings(movieTitle, releaseYear);
 
     if (ratings.length === 0) {
-      sidebar.appendChild(createNoRatingsElement());
+      sidebar.appendChild(createNoRatingsMessageElement());
       return;
     }
 

@@ -1,6 +1,8 @@
+import './error-message.css';
+
 const createErrorMessageElement = () => {
   const element = document.createElement('div');
-  element.className = 'section error-ratings';
+  element.className = 'section more-ratings__error-message';
 
   const topMessage = document.createElement('div');
   topMessage.innerText = 'Failed to fetch ratings.';
