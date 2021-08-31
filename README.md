@@ -1,4 +1,4 @@
-# More Ratings on Letterboxd Chrome Extension
+# More Ratings on Letterboxd - Chrome Extension
 
 ### Description
 
