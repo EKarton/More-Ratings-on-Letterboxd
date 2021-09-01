@@ -1,6 +1,6 @@
-import { setOption } from '../../storage';
+import { setOption } from '../../utils/storage';
 import { dispatchEventToContentScript } from '../dispatch';
-import { REQUEST_TYPES, LOCAL_STORAGE_KEYS } from '../../common/constants';
+import { REQUEST_TYPES, LOCAL_STORAGE_KEYS } from '../../utils/constants';
 
 export const handleRemoveRatings = async () => {
   await Promise.all([

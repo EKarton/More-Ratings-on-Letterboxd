@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { getOption } from '../storage';
-import { LOCAL_STORAGE_KEYS } from '../common/constants';
+import { getOption } from '../utils/storage';
+import { LOCAL_STORAGE_KEYS } from '../utils/constants';
 import { handleAddRatings, handleRemoveRatings } from './ratings';
 import './styles.css';
 
