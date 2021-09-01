@@ -1,7 +1,6 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const contentScripts = {
@@ -29,7 +28,7 @@ const contentScripts = {
   },
   devtool: false,
   watchOptions: {
-    ignored: ['node_modules', 'extension/**/*.js', 'extension/**/*.css'],
+    ignored: ['node_modules'],
     poll: 1000,
   },
   output: {
@@ -63,8 +62,11 @@ const popup = {
     }),
   ],
   devtool: false,
+  optimization: {
+    minimize: false,
+  },
   watchOptions: {
-    ignored: ['node_modules', 'extension/**/*.js', 'extension/**/*.css'],
+    ignored: ['node_modules'],
     poll: 1000,
   },
   output: {
@@ -73,4 +75,4 @@ const popup = {
   },
 };
 
-module.exports = [contentScripts];
+module.exports = [contentScripts, popup];

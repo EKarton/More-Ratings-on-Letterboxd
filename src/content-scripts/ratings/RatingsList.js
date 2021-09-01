@@ -1,10 +1,9 @@
-import { getRatingName } from './utils';
-import './ratings-list.css';
+import './RatingsList.css';
 
 const createRatingsListElement = (ratings) => {
   const element = document.createElement('div');
 
-  element.className = 'section more-ratings__ratings-list';
+  element.className = 'more-ratings__ratings-list';
   element.append(...ratings.map((rating) => createRatingElement(rating)));
 
   return element;
@@ -24,6 +23,17 @@ const createRatingElement = ({ source, value }) => {
   ratingElement.append(ratingValueLabel, ratingSourceLabel);
 
   return ratingElement;
+};
+
+const getRatingName = (source) => {
+  switch (source) {
+    case 'Internet Movie Database': {
+      return 'IMDB';
+    }
+    default: {
+      return source;
+    }
+  }
 };
 
 export default createRatingsListElement;

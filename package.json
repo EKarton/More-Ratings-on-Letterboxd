@@ -21,7 +21,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "arrive": "^2.4.1"
+    "bootstrap": "^5.1.0"
   },
   "devDependencies": {
     "autoprefixer": "10.3.3",
