@@ -1,4 +1,3 @@
-import 'arrive';
 import { getOption } from '../utils/storage';
 import { LOCAL_STORAGE_KEYS, REQUEST_TYPES } from '../utils/constants';
 import { addRatingsToWebpage, removeRatingsFromWebpage } from './ratings';
