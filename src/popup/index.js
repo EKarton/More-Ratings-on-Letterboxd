@@ -20,12 +20,17 @@ const handleShowHideRatingsChecked = async (e) => {
 };
 
 window.onload = async () => {
-  const showHideRatingsSwitch = document.getElementById('show-hide-ratings');
-  console.log('window.onload():', await getOption(LOCAL_STORAGE_KEYS.SHOW_RATINGS));
+  try {
+    const showHideRatingsSwitch = document.getElementById('show-hide-ratings');
+    console.log('window.onload():', await getOption(LOCAL_STORAGE_KEYS.SHOW_RATINGS));
 
-  if (await getOption(LOCAL_STORAGE_KEYS.SHOW_RATINGS)) {
-    showHideRatingsSwitch.checked = 'true';
+    if (await getOption(LOCAL_STORAGE_KEYS.SHOW_RATINGS)) {
+      showHideRatingsSwitch.checked = 'true';
+    }
+
+    showHideRatingsSwitch.addEventListener('change', handleShowHideRatingsChecked);
+  } catch (err) {
+    console.error(err);
+    throw err;
   }
-
-  showHideRatingsSwitch.addEventListener('change', handleShowHideRatingsChecked);
 };
