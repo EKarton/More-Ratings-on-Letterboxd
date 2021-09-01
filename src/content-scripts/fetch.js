@@ -16,14 +16,3 @@ export const fetchRatings = async (movieTitle, releaseYear) => {
     value: rating.Value,
   }));
 };
-
-export const getRatingName = (source) => {
-  switch (source) {
-    case 'Internet Movie Database': {
-      return 'IMDB';
-    }
-    default: {
-      return source;
-    }
-  }
-};
