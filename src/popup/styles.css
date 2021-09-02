@@ -1,5 +1,18 @@
 body,
 html {
   margin: 0px;
-  width: 20rem;
+  width: 22rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header__text {
+  margin: 0 0 0 0.5rem;
+}
+
+.options {
+  margin-top: 1.5rem;
 }

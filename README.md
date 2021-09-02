@@ -71,6 +71,8 @@ Please note that this project is used for educational purposes and is not intend
 
 Emilio Kartono
 
+Icons were made by [Freepik](https://www.freepik.com) from www.flaticon.com.
+
 ### License
 
 This project is protected under the MIT licence. Please refer to the [LICENSE.txt](LICENSE.txt) for more information.

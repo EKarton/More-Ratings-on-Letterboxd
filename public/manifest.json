@@ -1,6 +1,6 @@
 {
   "name": "More Ratings on Letterboxd",
-  "description": "Show IMDB, RottenTomatoes, and Metacritic ratings on Letterboxd",
+  "description": "See IMDB, RottenTomatoes, and Metacritic ratings on Letterboxd",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["storage"],
@@ -12,6 +12,7 @@
     }
   ],
   "action": {
+    "default_title": "More Ratings on Letterboxd",
     "default_popup": "popup/index.html",
     "default_icon": {
       "16": "/assets/icons/icon16.png",
