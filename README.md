@@ -6,6 +6,10 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 
 <img src="./docs/images/screenshot.png"/>
 
+You can also show / hide the ratings by clicking on the chrome extension:
+
+<img src="./docs/images/popover.png"/>
+
 ### Getting Started:
 
 #### Pre-requisites:
@@ -55,7 +59,7 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 ### Next Steps
 
 - [ ] Publish to the Chrome web store
-- [ ] Add popup to enable / disable injecting ratings on Letterboxd
+- [x] Add popup to enable / disable injecting ratings on Letterboxd
 - [ ] Add unit tests
 - [ ] Set up CI/CD pipeline for checking PRs and automatically deploy to the Chrome web store
 
@@ -66,6 +70,8 @@ Please note that this project is used for educational purposes and is not intend
 ### Author
 
 Emilio Kartono
+
+Icons were made by [Freepik](https://www.freepik.com) from www.flaticon.com.
 
 ### License
 
