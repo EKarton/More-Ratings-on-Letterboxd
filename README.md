@@ -6,6 +6,10 @@ Get IMDB, Rotten Tomatoes, and Metacritic ratings on Letterboxd! This project is
 
 <img src="./docs/images/screenshot.png"/>
 
+You can also show / hide the ratings by clicking on the chrome extension:
+
+<img src="./docs/images/popover.png"/>
+
 ### Getting Started:
 
 #### Pre-requisites:
