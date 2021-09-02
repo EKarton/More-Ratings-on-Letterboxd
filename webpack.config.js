@@ -24,7 +24,7 @@ const contentScripts = {
     }),
   ],
   optimization: {
-    minimize: false,
+    minimize: true,
   },
   devtool: false,
   watchOptions: {
@@ -63,7 +63,7 @@ const popup = {
   ],
   devtool: false,
   optimization: {
-    minimize: false,
+    minimize: true,
   },
   watchOptions: {
     ignored: ['node_modules'],
