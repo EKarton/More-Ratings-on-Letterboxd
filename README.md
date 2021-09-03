@@ -10,6 +10,8 @@ You can also show / hide the ratings by clicking on the chrome extension:
 
 <img src="./docs/images/popover.png"/>
 
+The chrome extension is available on the Chrome Web store. Visit the [Chrome Web Store](https://chrome.google.com/webstore/detail/more-ratings-on-letterbox/daohigojkjlijcphfhelkcepldnenike?hl=en&authuser=0) to install this chrome extension on your browser.
+
 ### Getting Started:
 
 #### Pre-requisites:
@@ -58,7 +60,7 @@ You can also show / hide the ratings by clicking on the chrome extension:
 
 ### Next Steps
 
-- [ ] Publish to the Chrome web store
+- [x] Publish to the Chrome web store
 - [x] Add popup to enable / disable injecting ratings on Letterboxd
 - [ ] Add unit tests
 - [ ] Set up CI/CD pipeline for checking PRs and automatically deploy to the Chrome web store
