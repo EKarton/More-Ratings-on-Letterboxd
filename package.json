@@ -10,12 +10,18 @@
   ],
   "author": "Emilio Kartono",
   "license": "MIT",
+  "engines": {
+    "yarn": ">=1.22.x"
+  },
   "scripts": {
     "clean": "rm -rf dist/ && rm -rf node_modules/",
     "build": "cp -r ./public/ dist/ && webpack --node-env production",
-    "lint": "eslint 'src/**/*.js' && prettier --check .",
-    "lint:fix": "eslint --fix 'src/**/*.js' && prettier --write .",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint --fix . && prettier --write .",
     "test": "jest"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0"
   },
   "devDependencies": {
     "autoprefixer": "10.3.3",
@@ -38,8 +44,5 @@
     "style-loader": "^3.2.1",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
-  },
-  "dependencies": {
-    "arrive": "^2.4.1"
   }
 }

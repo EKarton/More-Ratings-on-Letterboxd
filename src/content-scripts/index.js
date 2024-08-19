@@ -1,16 +1,39 @@
-import 'arrive';
-import { fetchRatings } from './utils';
-import createRatingsListElement from './ratings-list-element';
+import { getOption } from '../utils/storage';
+import { LOCAL_STORAGE_KEYS, REQUEST_TYPES } from '../utils/constants';
+import { addRatingsToWebpage, removeRatingsFromWebpage } from './ratings';
 
 window.onload = async () => {
-  const movieTitle = document.getElementsByClassName('headline-1')[0].innerText;
-  const releaseYear = document
-    .getElementById('featured-film-header')
-    .querySelector('.number').innerText;
-
-  const ratings = await fetchRatings(movieTitle, releaseYear);
-
-  document
-    .getElementsByClassName('sidebar')[0]
-    .appendChild(createRatingsListElement(ratings));
+  try {
+    if (await getOption(LOCAL_STORAGE_KEYS.SHOW_RATINGS)) {
+      await addRatingsToWebpage();
+    }
+  } catch (err) {
+    console.error(err);
+    throw err;
+  }
 };
+
+chrome.runtime.onMessage.addListener((request, _sender, sendResponse) => {
+  try {
+    switch (request.type) {
+      case REQUEST_TYPES.ADD_RATINGS: {
+        console.log('Adding ratings to the web page');
+        addRatingsToWebpage();
+        break;
+      }
+      case REQUEST_TYPES.REMOVE_RATINGS: {
+        console.log('Removing ratings from the webpage');
+        removeRatingsFromWebpage();
+        break;
+      }
+      default: {
+        throw new Error(`Unhandled request type ${request.type}`);
+      }
+    }
+
+    sendResponse({});
+  } catch (err) {
+    console.error(err);
+    throw err;
+  }
+});
